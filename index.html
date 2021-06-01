@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pako Robotics</title>
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/bd-coming-soon.css">
-</head>
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-<body class="min-vh-100 d-flex flex-column">
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-dark bg-transparent">
-                <a style="font-style: normal; font-weight: bold; color: aliceblue; font-size:xx-large" href="https://www.pakorobotics.com">PAKO</a>
-                <a class="navbar-text d-none d-sm-inline-block" href="mailto:pakorobotics@gmail.com">pakorobotics@gmail.com</a>
-            </nav>
-        </div>
-    </header>
-    <main class="my-auto">
-        <div class="container">
-            <h1 class="page-title">Coming in 2022</h1>
-            <nav class="footer-social-links">
-                <a href="mailto:pakorobotics@gmail.com" class="social-link"><i class="mdi mdi-mail"></i></a>
-            </nav>
-        </div>
-    </main>
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <p><span href="mailto:pakorobotics@gmail.com">pakorobotics@gmail.com</span> pakorobotics@gmail.com</p>
+
+  </div>
+  <div class="middle" >
+    <h1 style="color:red">COMING SOON</h1>
+    <hr>
+    <h4 style="color:orange">2022</h4>
+  </div>
+  <div class="bottomleft">
+    <p>B E G Z</p>
+  </div>
+</div>
+
 </body>
-
 </html>
